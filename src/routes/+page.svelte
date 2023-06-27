@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { enhance } from '$app/forms';
 	import PaymentLink from '$lib/components/payment-link.svelte';
 	import type { ActionData } from './$types';
 
@@ -14,7 +13,12 @@
 	}
 </script>
 
-<div class="container h-full mx-auto flex justify-center items-center flex-col">
+<div class="container h-full mx-auto flex justify-evenly items-center flex-col">
+	<div class="flex flex-col gap-4">
+		<h2 class="h2 text-center text-3xl">Thank you for supporting our Web3 educational efforts.</h2>
+		<h2 class="h2 text-center text-3xl">Merci de soutenir nos efforts pour l'éducation Web3.</h2>
+	</div>
+
 	<div class="flex gap-5 justify-around">
 		<div class="card p-5">
 			<h3 class="h3 mb-2 font-bold text-center">Payment links</h3>

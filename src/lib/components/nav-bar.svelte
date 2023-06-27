@@ -4,7 +4,12 @@
 
 <AppBar gridColumns="grid-cols-1" slotLead="place-self-center gap-3">
 	<svelte:fragment slot="lead">
-		<Avatar src="avatar.png" />
-		<h2 class="h2">Soushi Donation</h2>
+		<a href="https://www.ecoleduconsensusblockchain.com" target="_blank">
+			<img
+				src="logo_ecoleconsensusblockchain.png"
+				alt="Logo Ecole Consensus Blockchain"
+				class="h-52 rounded-lg"
+			/>
+		</a>
 	</svelte:fragment>
 </AppBar>

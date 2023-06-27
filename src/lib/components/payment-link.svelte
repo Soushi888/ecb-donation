@@ -4,8 +4,8 @@
 
 <div>
 	<a
-		class="btn variant-filled-primary hover:variant-ghost-primary w-full"
-		href="https://mixpay.me/41127124/{amount ? `${amount}usd` : 'donation'}"
+		class="btn variant-filled-primary hover:variant-filled-primary w-full"
+		href="https://mixpay.me/ecole/{amount ? `${amount}usd` : ''}"
 		target="_blank"
 	>
 		{#if !amount}
