@@ -19,7 +19,7 @@
 	<slot />
 	<!-- </div> -->
 
-	<svelte:fragment slot="footer">
+	<svelte:fragment slot="pageFooter">
 		<Footer />
 	</svelte:fragment>
 </AppShell>
